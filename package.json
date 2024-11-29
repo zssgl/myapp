@@ -10,6 +10,7 @@
     "@types/node": "^16.18.121",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "array.prototype.findlast": "^1.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -22,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_565560e9c0196f5"
   },
   "eslintConfig": {
     "extends": [
@@ -53,9 +55,12 @@
     "@storybook/react": "^8.4.5",
     "@storybook/react-webpack5": "^8.4.5",
     "@storybook/test": "^8.4.5",
+    "chromatic": "^11.19.0",
     "eslint-plugin-storybook": "^0.11.1",
     "prop-types": "^15.8.1",
+    "sass-loader": "^16.0.3",
     "storybook": "^8.4.5",
+    "style-loader": "^4.0.0",
     "webpack": "^5.96.1"
   }
 }
